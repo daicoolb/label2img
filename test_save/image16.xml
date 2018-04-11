@@ -1,0 +1,14 @@
+<annotation>
+	<folder>tests</folder>
+	<filename>image16.jpeg</filename>
+	<path>F:\zwh\project\labelImg-master-1.0\tests\image16.jpeg</path>
+	<source>
+		<database>Unknown</database>
+	</source>
+	<size>
+		<width>384</width>
+		<height>512</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+</annotation>
