@@ -41,8 +41,8 @@ __appname__ = u'标注工具V1.4(商用请联系作者)'
 
 attrList = []
 AttrNameDict = {}
-attr_conf = open("attribute_config.txt",encoding="utf-8")
-sku_conf = open("sku_config.txt",encoding="utf-8")
+attr_conf = open("./data/attribute_config.txt",encoding="utf-8")
+sku_conf = open("./data/sku_config.txt",encoding="utf-8")
 sku_num = 10000
 for lint in sku_conf:
     if len(lint) > 0:

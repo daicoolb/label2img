@@ -11,7 +11,7 @@ from libs.lib import newIcon, labelValidator
 
 BB = QDialogButtonBox
 
-sku_conf = open("sku_config.txt",encoding="utf-8")
+sku_conf = open("./date/sku_config.txt",encoding="utf-8")
 sku_num = 10000
 for lint in sku_conf:
     if len(lint) > 0:

@@ -10,7 +10,7 @@ XML_EXT = '.xml'
 ENCODE_METHOD = 'utf-8'
 
 AttrNameList = []
-attr_conf = open("attribute_config.txt",encoding="utf-8")
+attr_conf = open("./data/attribute_config.txt",encoding="utf-8")
 for line in attr_conf:
     #line = line.decode('utf-8')
     line_sp = line.strip().split(" ")
@@ -90,9 +90,9 @@ class PascalVocWriter:
     def addBndBox(self, xmin, ymin, xmax, ymax, name, attrDict):
         bndbox = {'xmin': xmin, 'ymin': ymin, 'xmax': xmax, 'ymax': ymax}
         bndbox['name'] = name
-        
+
         bndbox['attributes'] = attrDict
-        
+
         self.boxlist.append(bndbox)
 
     def appendObjects(self, top):
@@ -119,7 +119,7 @@ class PascalVocWriter:
             for key in each_object['attributes']:
                 attr = SubElement(attributes, key)
                 attr.text = str(each_object['attributes'][key])
-                
+
             bndbox = SubElement(object_item, 'bndbox')
             xmin = SubElement(bndbox, 'xmin')
             xmin.text = str(each_object['xmin'])
