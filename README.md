@@ -1,5 +1,7 @@
 # label2img
 
+[![](https://jaywcjlove.github.io/sb/ico/awesome.svg)](#) [![](https://jaywcjlove.github.io/sb/license/mit.svg)](#)
+
 ##### 这是一个基于开源label2img汉化的一个标注版本
 
 - 修复了以往的一些bug
