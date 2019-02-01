@@ -14,5 +14,4 @@
 - 如需编译安装，请联系作者本人
 - pyinstaller / py2exe 都可以打包
 
-##### 联系方式
-- 作者邮箱:daicoolb@outlook.com
+
