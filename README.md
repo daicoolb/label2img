@@ -11,7 +11,6 @@
 ##### 使用编译方法
 
 - python3 pyQT5
-- 如需编译安装，请联系作者本人
 - pyinstaller / py2exe 都可以打包
 
 
